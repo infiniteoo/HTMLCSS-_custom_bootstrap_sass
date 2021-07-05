@@ -46,5 +46,15 @@
 
 .panel-heading h4 {
   color: set-text-color($main-color);
-  
+}
+
+.section-c {
+  padding: 60px 0;
+  text-align: center;
+  background: $main-color;
+  color: set-text-color($main-color);
+
+  .btn-primary {
+    background: darken($main-color, 10%);
+  }
 }
